@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Vazir";
+  src: url('assets/fonts/Vazir.ttf');
+}
+
+@font-face {
+  font-family: "Vazir-Medium";
+  src: url('assets/fonts/Vazir-Medium.ttf');
+}
 .App {
-  text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +44,138 @@
   to {
     transform: rotate(360deg);
   }
+}
+h4,
+h6 {
+  font-family: Vazir-Medium;
+}
+
+p {
+  font-family: Vazir;
+}
+
+.main-panel {
+  backdrop-filter: blur(5px);
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.5));
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-top: 135px;
+  text-align: right;
+  direction: rtl;
+  padding: 60px 40px 60px 40px;
+  border-radius: 15px;
+  border: rgba(255, 255, 255, 0.5) solid 3px;
+}
+
+.form-panel {
+  text-align: center;
+}
+
+.center-input {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.input-label {
+  font-family: Vazir;
+  font-size: 20px;
+  color: white;
+}
+
+.drop-down {
+  display: inline;
+  font-family: Vazir;
+  font-size: 20px;
+  width: 50%;
+  color: #56555A;
+  padding: 10px;
+  border-radius: 8px;
+  border: #707070 solid 2px;
+  appearance: unset;
+  padding-left: 15px;
+  background-image: url('assets/icons/arrow_drop_down_circle.svg');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+
+}
+
+.form-input,
+.form-password {
+  display: inline;
+  font-family: Vazir;
+  font-size: 20px;
+  color: #56555A;
+  padding: 5px;
+  border-radius: 8px;
+  border: #707070 solid 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.primary-button {
+  font-family: Vazir-medium;
+  font-size: 20px;
+  color: white;
+  padding: 15px 60px 15px 60px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(135deg, #7FE0DF, #407070);
+  cursor: pointer;
+
+}
+
+.bottom-logo {
+  margin-top: 120px;
+  text-align: center;
+  align-items: center;
+  cursor: default;
+}
+
+.small-logo {
+  height: 60px;
+  background-image: url('assets/icons/madani_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  background-position: center;
+}
+
+.logo-subtitle {
+  font-family: vazir;
+  font-size: 14px;
+  color: white;
+}
+
+
+
+.card-title {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.notice-title {
+  color: white;
+  font-size: 18px;
+}
+
+.notice-text {
+  color: white;
+  font-size: 14px;
+}
+
+.form-link {
+  color: #7FE0DF;
+  font-family: Vazir;
+  text-align: center;
 }
